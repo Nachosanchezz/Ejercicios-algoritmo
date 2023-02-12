@@ -7,3 +7,6 @@ interest_rate = float(input("Introduce la tasa de interés: "))
 time_in_months = int(input("Introduce el tiempo en meses: "))
 
 interest = calculate_interest(principal, interest_rate, time_in_months)
+
+print("El importe de los intereses generados es: ", interest)
+
