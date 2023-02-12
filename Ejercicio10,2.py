@@ -9,3 +9,6 @@ base = max(a, b)
 height = min(a, b)
 
 area = calculate_triangle_area(base, height)    
+
+print("El área del triángulo es: ", area)
+
